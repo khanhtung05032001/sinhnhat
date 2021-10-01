@@ -1,4 +1,4 @@
-$(document).ready(function (){
+
     $(".gui").click(function (){
         $(".popup").show();
         $(".trang-chu-3").hide();
@@ -56,7 +56,4 @@ $(document).ready(function (){
 //     document.getElementById("log-div").value = "";
 // }
 
-$(".ipnhap").keyup(function(e){
-    $(this).text("Hello");
-});
 
