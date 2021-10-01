@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contariner-all{
+
+}
+a{
+    text-decoration: none;
+}
+
+.loggin{
+    background:#FFcccc;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 30px 30px #FFCCCC	;
+    border-radius: 50%;
+
+}
+.loggin .img-login{
+    width:400px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 20px;
+    /*box-shadow: 0 0 10px 10px #FF00FF;*/
+
+}
+.loggin .img-trang1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: rgba(25,25,25,.04) 0 0 1px 0,rgba(0,0,0,.1) 0 3px 4px 0;
+    border-radius: 50%;
+}
+.loggin .title{
+    position: absolute;
+    top:40px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.loggin .h1-ttt{
+    text-align: center;
+}
+.loggin .tt-trang{
+    margin-top: 15px;
+    font-size: 21px;
+    line-height: 21px;
+    text-align: center;
+}
+.loggin .trang-xem{
+    margin-top: 20px;
+   background: 	#FF0066;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 500;
+    text-align: center;
+}
+/*#test {*/
+/*    padding: 10px 20px;*/
+/*    background: chartreuse;*/
+/*    font-size: 16px;*/
+/*    line-height: 19px;*/
+/*    font-weight: bold;*/
+/*    margin-left: 20px;*/
+/*    border-radius: 10px;*/
+/*    width: 100px;*/
+/*    cursor: pointer;*/
+/*    position: absolute;*/
+
+/*}*/
+
+.tung{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trangchu-all{
+    background: url("img/trsng5.gif")no-repeat;
+    width: 100%;
+    background-size: 100% 85%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+.trangchu-all .h1trangchu{
+text-align: center;
+    line-height: 40px;
+    margin-top: 30px;
+    font-family: cursive;
+}
+.img-trangchu{
+
+}
+.imgtrang3{
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.co-khong{
+    margin-top: 60px;
+    display: flex;
+}
+.co{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    color: #ffffff;
+    margin-right: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    position: absolute;
+    left: 25%;
+    cursor: pointer;
+    width: 200px;
+    padding: 10px 0px;
+
+}
+.co2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    color: #ffffff;
+    margin-right: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    position: absolute;
+    left: 42%;
+    cursor: pointer;
+    width: 200px;
+    padding: 10px 0px;
+
+}
+.khong{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px 0px;
+
+}
+#test {
+    background: chartreuse;
+    font-weight: bold;
+    margin-left: 20px;
+    border-radius: 10px;
+
+    cursor: pointer;
+    position: absolute;
+right: 25%;
+}
+
+
+
+
+
+.hinh333{
+    background: url("img/trang7.png")no-repeat;
+    width: 100%;
+    height: 576px;
+    background-size: 100% 100%;
+    object-fit: cover;
+    padding-top: 40px;
+
+}
+
+
+.trang-chu-3{
+    text-align: center;
+    background: #1877f2;
+    width: 800px;
+    box-shadow: 0 0 30px 30px   #ffffff	;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    /*position: fixed;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+.trang33{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.tt3{
+    margin-top: 20px;
+
+}
+.ipnhap{
+    margin-top: 15px;
+    padding: 20px 20px;
+    width: 100%;
+    font-size: 21px;
+    border: 0px;
+    outline: 0;
+    border-radius: 10px;
+}
+.gui{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    background: #FF9900;
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+    color:#ffffff;
+    cursor: pointer;
+}
+.popup{
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    animation-name: animatetop;
+    animation-duration: 0.9s;
+    webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.9s;
+    animation-name: animatetop;
+    display: none;
+}
+.hien{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background: url("img/tung.gif")no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+   text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.h2-poup{
+    font-size: 50px;
+    line-height: 60px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.chon4{
+    margin-top: 15px;
+    background: red;
+    padding: 10px 20px;
+    font-size: 50px;
+    line-height: 60px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pupp4{
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    animation-name: animatetop;
+    animation-duration: 0.9s;
+    webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.9s;
+    animation-name: animatetop;
+    display: none;
+
+}
+.trangchu333{
+    width: 100%;
+    height: 100%;
+    background: url("img/tung3.png")no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: 0 0 30px 30px #FFFFFF	;
+
+}
+.khanh1{
+    margin-top: 15px;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+
+    border-radius: 10px;
+    padding: 20px;
+}
+.khanh2{
+    margin-top: 25px;
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    background: #ff3300;
+    color: #ffffff;
+}
+.khanh3{
+    margin-top: 180px;
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: bold;
+    text-align: center;
+    background: #FFCC00FF;
+
+    border-radius: 10px;
+    padding: 20px;
+}
+
+@media (max-width: 480px) {
+    .loggin{
+        width: 76%;
+    }
+    .loggin .img-login{
+        height: 500px;
+    }
+    .co{
+        width: 100px;
+        left: 13%;
+    }
+    .khong{
+        width: 100px;
+    }
+    #test{
+        right: 13%;
+    }
+    .trangchu-all{
+        height: 600px;
+    }
+    .khanh1{
+        font-size: 39px;
+    }
+    .khanh2{
+        font-size: 25px;
+    }
+    .khanh3{
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: 60px;
+    }
+
+
+
+}
