@@ -89,7 +89,7 @@ a{
 }
 
 .trangchu-all{
-    background: url("img/trsng5.gif")no-repeat;
+    background: url("../img/trsng5.gif")no-repeat;
     width: 100%;
     background-size: 100% 85%;
     height: 800px;
@@ -179,7 +179,7 @@ right: 25%;
 
 
 .hinh333{
-    background: url("img/trang7.png")no-repeat;
+    background: url("../img/trang7.png")no-repeat;
     width: 100%;
     height: 576px;
     background-size: 100% 100%;

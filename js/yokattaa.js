@@ -27,7 +27,6 @@
 
 
 
-})
 
 // const danhsach = document.getElementById("#kk")
 // const con = danhsach.children
